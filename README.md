@@ -4,13 +4,13 @@ On this repository we will be testing the backend ok and API Rest and also testi
 # Setups for your project
 You'll need to install NodeJs, install cypress in your project folder with, and then run cypress.
 
-# pluggins for cypress for xpath
+# pluggins for cypress - xpath
 ¿How can I integrate the xpath method of selenium on cypress?
 R= very simple, install on your proyect npm install cypress-path, then configure in your index.js file as require('cypress-xpath')
 
 and in your test use it like cy.xpath('xpath build by yourself')
 
-# To test de Back End : file path: integration/examples/example.js
+# To test Back End : file path: integration/examples/example.js
 
 We'll be using axios, to make call the API. Cypress has also its methods, but it gets tricky somethimes with asyncronization.
 First: search with the following url https://api.openbrewerydb.org/breweries/autocomplete?query="lagunitas"
